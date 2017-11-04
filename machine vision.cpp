@@ -187,7 +187,7 @@ public:
 			
 			}
 		}
-		_err__=*sigmaError;
+		_err__=(*sigmaError/traningdata.rows);//mean error..
 		puts("model trained..");
 		trained=true;///trainig flag..
 		info();free(sigmaError);free(pridiction);free(netxp);free(netyp);
