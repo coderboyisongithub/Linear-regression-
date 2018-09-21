@@ -1,2 +1,4 @@
 # Linear-regression-opencv-library-
-class decleration for linear regression and source code using it
+This code block allows user to implemet linear regression in less lines of code..with ease
+It is based on opencv library.So user must have opencv setup in their project..
+
