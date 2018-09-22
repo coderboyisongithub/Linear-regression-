@@ -211,17 +211,16 @@ public:
 };
 void main()
 {
+	//implementation... of code...
 	Mat t(3,2,CV_32FC1),tt(3,2,CV_32FC1);;
 	int count=0;
 	for(int R=0;R<t.rows;R++)
 	{
-
 		for(int C=0;C<t.cols;C++)
 		{
 			t.at<float>(R,C)=a[count];
 			count++;
 		}
-
 	}
 
 	float result;
