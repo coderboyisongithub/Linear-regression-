@@ -202,7 +202,7 @@ public:
 		 if(trained==true)
 		 {
 		 printf("\n model is trained with ** regression coffecients:\n intercept:%f\n slope:%f \nError:%f",intercept,slope,_err__);
-		 printf("\nmodel takes upto:%.3f bytes\n",(float)(sizeof(float)*7+sizeof(int)*2+sizeof(bool)*2));
+//printf("\nmodel takes upto:%.3f bytes\n",(float)(sizeof(float)*7+sizeof(int)*2+sizeof(bool)*2));
 		 }
 		 else
 			 puts("model is not trained till now..");
